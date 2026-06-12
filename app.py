@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sklearn
+st.write("sklearn version:", sklearn.__version__)
 
 st.set_page_config(page_title="Fraud Detection", page_icon="🕵️", layout="centered")
 
